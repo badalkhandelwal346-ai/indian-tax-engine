@@ -26,3 +26,4 @@ Re-read the PRD whenever unsure.
 - Self-resolve problems (type errors, tooling, versions, failing tests) with the smallest fix that keeps intent. Ask the owner only for tax-logic, scope, public-API or credential decisions.
 - Each prompt ends with: run the checks, all green, then commit with the given message.
 - Report format after each prompt: (a) what you did, (b) files changed, (c) test/check output summary, (d) deviations or problems you resolved and how, (e) anything the owner must verify.
+
