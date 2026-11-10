@@ -34,3 +34,4 @@ export function compareRegimes(input: CompareInput): CompareResult {
     difference: Math.abs(n.taxPayable - o.taxPayable),
   };
 }
+

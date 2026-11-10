@@ -51,3 +51,4 @@ function renderComplete(r: CompleteResult): string {
   if (r.warnings.length) lines.push("Warnings:", ...r.warnings.map((w) => ` - [${w.code}] ${w.message}`));
   return lines.join("\n");
 }
+
