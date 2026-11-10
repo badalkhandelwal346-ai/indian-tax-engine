@@ -20,3 +20,4 @@
 - **Maximum Total Income**: Rs 50,00,000 (paise: 500,000,000). Total income exceeding Rs 50,00,000 returns `status: "unsupported"` because surcharge calculation is not implemented.
 - **Other Income Heads**: House property, capital gains, business/profession, and other sources are unsupported.
 - **Non-residents / Senior Citizens**: Unsupported in this prototype release.
+

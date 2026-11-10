@@ -46,3 +46,4 @@ This checklist outlines the mandatory steps the package owner must complete befo
   node -e 'const { calculateTax } = require("india-tax-engine"); console.log(calculateTax({ taxPeriod: "2026-27", regime: "new", taxpayer: { category: "individual", residentialStatus: "resident", ageBand: "below-60" }, income: { salary: 1285000 } }));'
   ```
 - [ ] Verify output gives `status: "complete"`, `rulesetVersion: "IN-2026-27-new-r1"`, and `taxPayable: 10400`.
+

@@ -116,3 +116,4 @@ A release to production or npm requires:
 2. Ruleset `status` is promoted to `"verified"`.
 3. `npm run verify` passes with 0 validation issues and 0 warnings about unverified rules.
 4. Independent human sign-off on the Phase 0 verification checklist.
+

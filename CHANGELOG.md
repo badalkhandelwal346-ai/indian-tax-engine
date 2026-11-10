@@ -15,3 +15,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Public functions: `calculateTax`, `compareRegimes`, `explain`, `formatINR`.
 - Schema validator for rule files (`validate-rules` CLI script).
 - Zero runtime dependencies architecture.
+

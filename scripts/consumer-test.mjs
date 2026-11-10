@@ -173,3 +173,4 @@ console.log("[consumer-test] CommonJS consumer assertions passed!");
     fs.unlinkSync(tarballPath);
   }
 }
+
