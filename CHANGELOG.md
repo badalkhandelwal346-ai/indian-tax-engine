@@ -5,7 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased / 0.1.0]
+## [0.1.0] - 2026-11-10
+
+Prototype; rules are drafts pending primary-source verification.
 
 ### Added
 - Core tax calculation engine supporting Indian salaried individuals below age 60 under new and old tax regimes for tax periods `2025-26` and `2026-27`.

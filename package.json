@@ -1,6 +1,6 @@
 {
   "name": "india-tax-engine",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Deterministic, offline Indian income-tax calculator with an explainable trace (prototype, informational only)",
   "type": "module",
   "main": "./dist/index.cjs",
