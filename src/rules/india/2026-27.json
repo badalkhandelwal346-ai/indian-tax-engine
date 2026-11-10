@@ -1,0 +1,143 @@
+{
+  "new": {
+    "rulesetVersion": "IN-2026-27-new-r1",
+    "jurisdiction": "IN",
+    "taxPeriod": "2026-27",
+    "framework": "IT_ACT_2025",
+    "regime": "new",
+    "effective": {
+      "from": "2026-04-01",
+      "to": "2027-03-31"
+    },
+    "status": "draft",
+    "slabs": [
+      { "upTo": 400000, "rateBps": 0 },
+      { "upTo": 800000, "rateBps": 500 },
+      { "upTo": 1200000, "rateBps": 1000 },
+      { "upTo": 1600000, "rateBps": 1500 },
+      { "upTo": 2000000, "rateBps": 2000 },
+      { "upTo": 2400000, "rateBps": 2500 },
+      { "upTo": null, "rateBps": 3000 }
+    ],
+    "standardDeduction": 75000,
+    "rebate": {
+      "incomeLimit": 1200000,
+      "max": 60000,
+      "marginalRelief": true
+    },
+    "cessBps": 400,
+    "rounding": {
+      "totalIncome": 10,
+      "payable": 10
+    },
+    "support": {
+      "maxTotalIncome": 5000000
+    },
+    "sources": [
+      {
+        "ruleId": "IN-26-N-SLAB",
+        "provision": "TO CONFIRM (Phase 0)",
+        "url": "https://www.incometax.gov.in/",
+        "retrievedOn": "2026-11-09",
+        "verification": "secondary-corroborated"
+      },
+      {
+        "ruleId": "IN-26-N-STDDED",
+        "provision": "TO CONFIRM (Phase 0)",
+        "url": "https://www.incometax.gov.in/",
+        "retrievedOn": "2026-11-09",
+        "verification": "secondary-corroborated"
+      },
+      {
+        "ruleId": "IN-26-N-REBATE",
+        "provision": "s.156 Income-tax Act 2025 - TO CONFIRM (Phase 0)",
+        "url": "https://www.incometax.gov.in/",
+        "retrievedOn": "2026-11-09",
+        "verification": "secondary-corroborated"
+      },
+      {
+        "ruleId": "IN-26-N-CESS",
+        "provision": "TO CONFIRM (Phase 0)",
+        "url": "https://www.incometax.gov.in/",
+        "retrievedOn": "2026-11-09",
+        "verification": "secondary-corroborated"
+      },
+      {
+        "ruleId": "IN-26-N-ROUND",
+        "provision": "s.516 Income-tax Act 2025 - TO CONFIRM (Phase 0)",
+        "url": "https://www.incometax.gov.in/",
+        "retrievedOn": "2026-11-09",
+        "verification": "secondary-corroborated"
+      }
+    ]
+  },
+  "old": {
+    "rulesetVersion": "IN-2026-27-old-r1",
+    "jurisdiction": "IN",
+    "taxPeriod": "2026-27",
+    "framework": "IT_ACT_2025",
+    "regime": "old",
+    "effective": {
+      "from": "2026-04-01",
+      "to": "2027-03-31"
+    },
+    "status": "draft",
+    "slabs": [
+      { "upTo": 250000, "rateBps": 0 },
+      { "upTo": 500000, "rateBps": 500 },
+      { "upTo": 1000000, "rateBps": 2000 },
+      { "upTo": null, "rateBps": 3000 }
+    ],
+    "standardDeduction": 50000,
+    "rebate": {
+      "incomeLimit": 500000,
+      "max": 12500,
+      "marginalRelief": false
+    },
+    "cessBps": 400,
+    "rounding": {
+      "totalIncome": 10,
+      "payable": 10
+    },
+    "support": {
+      "maxTotalIncome": 5000000
+    },
+    "sources": [
+      {
+        "ruleId": "IN-26-O-SLAB",
+        "provision": "TO CONFIRM (Phase 0)",
+        "url": "https://www.incometax.gov.in/",
+        "retrievedOn": "2026-11-09",
+        "verification": "secondary-corroborated"
+      },
+      {
+        "ruleId": "IN-26-O-STDDED",
+        "provision": "TO CONFIRM (Phase 0)",
+        "url": "https://www.incometax.gov.in/",
+        "retrievedOn": "2026-11-09",
+        "verification": "secondary-corroborated"
+      },
+      {
+        "ruleId": "IN-26-O-REBATE",
+        "provision": "s.156 Income-tax Act 2025 - TO CONFIRM; old-regime marginal relief: sources conflict, majority says none",
+        "url": "https://www.incometax.gov.in/",
+        "retrievedOn": "2026-11-09",
+        "verification": "open-conflict"
+      },
+      {
+        "ruleId": "IN-26-O-CESS",
+        "provision": "TO CONFIRM (Phase 0)",
+        "url": "https://www.incometax.gov.in/",
+        "retrievedOn": "2026-11-09",
+        "verification": "secondary-corroborated"
+      },
+      {
+        "ruleId": "IN-26-O-ROUND",
+        "provision": "s.516 Income-tax Act 2025 - TO CONFIRM (Phase 0)",
+        "url": "https://www.incometax.gov.in/",
+        "retrievedOn": "2026-11-09",
+        "verification": "secondary-corroborated"
+      }
+    ]
+  }
+}
