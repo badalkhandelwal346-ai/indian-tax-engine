@@ -44,7 +44,9 @@
     "build": "tsup src/index.ts --format esm,cjs --dts --clean",
     "pack:check": "npm pack --dry-run",
     "validate-rules": "tsx scripts/validate-rules.ts",
-    "verify": "npm run typecheck && npm run validate-rules && npm test"
+    "verify": "npm run typecheck && npm run validate-rules && npm test",
+    "consumer-test": "npm run build && node scripts/consumer-test.mjs",
+    "prepublishOnly": "npm run verify && npm run build"
   },
   "license": "MIT",
   "devDependencies": {
