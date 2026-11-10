@@ -15,3 +15,4 @@ export function slabTax(income: Paise, slabs: readonly Slab[]): Paise {
   }
   return tax;
 }
+
