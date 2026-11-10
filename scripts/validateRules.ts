@@ -93,3 +93,4 @@ export function validatePeriod(file: string, taxPeriod: string, data: PeriodRule
   }
   return issues;
 }
+

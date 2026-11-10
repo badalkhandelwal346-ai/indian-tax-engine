@@ -52,3 +52,4 @@ if (totalIssues > 0) {
   console.log("\nAll rule files passed schema and integrity validation.");
   process.exit(0);
 }
+
