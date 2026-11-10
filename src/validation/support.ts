@@ -67,3 +67,4 @@ export function checkIncomeCeiling(totalIncome: Paise, rules: RegimeRules): Reas
   }
   return [];
 }
+
