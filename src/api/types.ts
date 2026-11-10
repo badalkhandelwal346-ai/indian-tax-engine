@@ -52,3 +52,4 @@ export interface RegimeComparison {
   difference: number; // INR, absolute
 }
 export type CompareResult = RegimeComparison | UnsupportedResult;
+
