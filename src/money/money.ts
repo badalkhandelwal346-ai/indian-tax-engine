@@ -32,3 +32,4 @@ export function roundToNearestTen(p: Paise): Paise {
 
 /** amount x basis points / 10,000, rounded down to whole paise. */
 export const applyBps = (p: Paise, bps: number): Paise => Math.floor((p * bps) / 10_000);
+

@@ -112,3 +112,4 @@ describe("paiseToRupees", () => {
     expect(paiseToRupees(1025)).toBe(10.25);
   });
 });
+
