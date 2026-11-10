@@ -17,3 +17,4 @@ export function getRules(taxPeriod: string, regime: string): RegimeRules {
     throw new TaxInputError("UNKNOWN_REGIME", `Unknown regime: ${String(regime)}`, "regime");
   return period[regime];
 }
+
