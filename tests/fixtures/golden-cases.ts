@@ -16,3 +16,4 @@ export const GOLDEN_CASES: GoldenCase[] = [
   { label: "old 5,50,000",  regime: "old", salary: 550000,  totalIncome: 500000,  slabTax: 12500, payable: 0 },
   { label: "old 6,00,000",  regime: "old", salary: 600000,  totalIncome: 550000,  slabTax: 22500, payable: 23400 },
 ];
+

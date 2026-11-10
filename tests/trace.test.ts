@@ -64,3 +64,4 @@ describe("calculation trace steps", () => {
     expect(stepCodes).not.toContain("MARGINAL_RELIEF");
   });
 });
+
